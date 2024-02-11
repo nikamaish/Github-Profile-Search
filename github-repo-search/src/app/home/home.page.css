@@ -1,0 +1,23 @@
+/* home.component.css */
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .left-side {
+    flex: 1.5;
+    padding-right: 20px; /* Adjust padding as needed */
+    /* background-color: green; */
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  .right-side img{
+    width: 100%;
+  }
+  
+  /* Add any additional styling as needed */
+  
