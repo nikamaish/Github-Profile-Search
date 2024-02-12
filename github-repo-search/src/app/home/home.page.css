@@ -30,8 +30,42 @@
     margin-bottom: 10px;
     padding-left: 20px;
     margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
   }
-  
+  .left-side .username-search{
+    
+    padding: 10px;
+    width: 50%;
+    margin: 20px;
+    border-radius: 5px;
+    /* border-color: grey; */
+    outline: none;
+    font-size: large;
+   
+  }
+
+  .left-side h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 45px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    /* margin-bottom: 30px; */
+  }
+  .left-side  button{
+    padding: 10px;
+    background-color: #000;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  .left-side  button:hover{ 
+    background-color: #333;
+  }
   .right-side {
     flex: 1;
   }

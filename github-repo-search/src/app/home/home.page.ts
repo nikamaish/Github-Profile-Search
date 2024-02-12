@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   // You can add any logic or data needed for the home page
+  username: string = '';
 }
